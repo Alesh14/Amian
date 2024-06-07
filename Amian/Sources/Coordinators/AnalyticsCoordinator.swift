@@ -26,10 +26,3 @@ extension AnalyticsCoordinator {
         AnalyticsView()
     }
 }
-
-struct AnalyticsView: View {
-    
-    var body: some View {
-        Text("Analitycs")
-    }
-}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */; };
 		4A4448BB59E3DAC2E4E6862D /* Pods_Amian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED194EA49594410EE28F9207 /* Pods_Amian.framework */; };
 		A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */; };
 		A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		A151DE06FEFD62186B437B83 /* Pods-Amian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.release.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.release.xcconfig"; sourceTree = "<group>"; };
 		A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
@@ -46,6 +48,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44FE69FA2C13899300C41B6A /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		44FE69FD2C1389B700C41B6A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		52ADE6CADE295EB2FB233FA5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +83,7 @@
 		A6A4E1182C134B2900A950A3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				A6A4E11A2C134B3500A950A3 /* Analytics */,
+				44FE69FA2C13899300C41B6A /* Analytics */,
 				A6A4E1192C134B3100A950A3 /* Home */,
 			);
 			path = Scenes;
@@ -78,13 +95,6 @@
 				A6A4E11B2C134B4900A950A3 /* HomeView.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		A6A4E11A2C134B3500A950A3 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Analytics;
 			sourceTree = "<group>";
 		};
 		A6CDB18B2C12D78E006D3649 = {
@@ -128,20 +138,13 @@
 			isa = PBXGroup;
 			children = (
 				A6A4E1182C134B2900A950A3 /* Scenes */,
-				A6CDB1B62C12EFA2006D3649 /* Library */,
+				44FE69FD2C1389B700C41B6A /* Library */,
 				A6CDB1B72C12EFA8006D3649 /* Coordinators */,
 				A6CDB1972C12D78E006D3649 /* AppDelegate.swift */,
 				A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */,
 				A6CDB1B42C12ED26006D3649 /* RootCoordinator.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		A6CDB1B62C12EFA2006D3649 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Library;
 			sourceTree = "<group>";
 		};
 		A6CDB1B72C12EFA8006D3649 /* Coordinators */ = {
@@ -271,6 +274,7 @@
 				A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */,
 				A6CDB1B52C12ED26006D3649 /* RootCoordinator.swift in Sources */,
 				A6A4E11C2C134B4900A950A3 /* HomeView.swift in Sources */,
+				44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */,
 				A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */,
 				A6CDB1982C12D78E006D3649 /* AppDelegate.swift in Sources */,
 			);
