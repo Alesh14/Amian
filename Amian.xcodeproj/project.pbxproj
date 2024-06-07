@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4448BB59E3DAC2E4E6862D /* Pods_Amian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED194EA49594410EE28F9207 /* Pods_Amian.framework */; };
+		A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */; };
+		A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */; };
+		A6A4E11C2C134B4900A950A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E11B2C134B4900A950A3 /* HomeView.swift */; };
+		A6CDB1982C12D78E006D3649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CDB1972C12D78E006D3649 /* AppDelegate.swift */; };
+		A6CDB1A12C12D78F006D3649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CDB1A02C12D78F006D3649 /* Assets.xcassets */; };
+		A6CDB1A42C12D78F006D3649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CDB1A22C12D78F006D3649 /* LaunchScreen.storyboard */; };
+		A6CDB1B12C12E7EE006D3649 /* AmianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */; };
+		A6CDB1B52C12ED26006D3649 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CDB1B42C12ED26006D3649 /* RootCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A151DE06FEFD62186B437B83 /* Pods-Amian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.release.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.release.xcconfig"; sourceTree = "<group>"; };
+		A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
+		A6A4E11B2C134B4900A950A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A6CDB1942C12D78E006D3649 /* Amian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CDB1972C12D78E006D3649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6CDB1A02C12D78F006D3649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6CDB1A32C12D78F006D3649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6CDB1A52C12D78F006D3649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmianApp.swift; sourceTree = "<group>"; };
+		A6CDB1B42C12ED26006D3649 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		B7F86C6D1D18DACC02C7A1D0 /* Pods-Amian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.debug.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.debug.xcconfig"; sourceTree = "<group>"; };
+		ED194EA49594410EE28F9207 /* Pods_Amian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6CDB1912C12D78E006D3649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4448BB59E3DAC2E4E6862D /* Pods_Amian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52ADE6CADE295EB2FB233FA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7F86C6D1D18DACC02C7A1D0 /* Pods-Amian.debug.xcconfig */,
+				A151DE06FEFD62186B437B83 /* Pods-Amian.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7EFB2EACCF38CD1AC9C4CEBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED194EA49594410EE28F9207 /* Pods_Amian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6A4E1182C134B2900A950A3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4E11A2C134B3500A950A3 /* Analytics */,
+				A6A4E1192C134B3100A950A3 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A6A4E1192C134B3100A950A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4E11B2C134B4900A950A3 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A6A4E11A2C134B3500A950A3 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		A6CDB18B2C12D78E006D3649 = {
+			isa = PBXGroup;
+			children = (
+				A6CDB1962C12D78E006D3649 /* Amian */,
+				A6CDB1952C12D78E006D3649 /* Products */,
+				52ADE6CADE295EB2FB233FA5 /* Pods */,
+				7EFB2EACCF38CD1AC9C4CEBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6CDB1952C12D78E006D3649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6CDB1942C12D78E006D3649 /* Amian.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6CDB1962C12D78E006D3649 /* Amian */ = {
+			isa = PBXGroup;
+			children = (
+				A6CDB1B32C12EB9E006D3649 /* Sources */,
+				A6CDB1B22C12EB97006D3649 /* Resources */,
+				A6CDB1A52C12D78F006D3649 /* Info.plist */,
+			);
+			path = Amian;
+			sourceTree = "<group>";
+		};
+		A6CDB1B22C12EB97006D3649 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6CDB1A02C12D78F006D3649 /* Assets.xcassets */,
+				A6CDB1A22C12D78F006D3649 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6CDB1B32C12EB9E006D3649 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4E1182C134B2900A950A3 /* Scenes */,
+				A6CDB1B62C12EFA2006D3649 /* Library */,
+				A6CDB1B72C12EFA8006D3649 /* Coordinators */,
+				A6CDB1972C12D78E006D3649 /* AppDelegate.swift */,
+				A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */,
+				A6CDB1B42C12ED26006D3649 /* RootCoordinator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A6CDB1B62C12EFA2006D3649 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A6CDB1B72C12EFA8006D3649 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */,
+				A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6CDB1932C12D78E006D3649 /* Amian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CDB1A82C12D78F006D3649 /* Build configuration list for PBXNativeTarget "Amian" */;
+			buildPhases = (
+				8527FAA3D8429B25AF6988F0 /* [CP] Check Pods Manifest.lock */,
+				A6CDB1902C12D78E006D3649 /* Sources */,
+				A6CDB1912C12D78E006D3649 /* Frameworks */,
+				A6CDB1922C12D78E006D3649 /* Resources */,
+				1BC6F4B4A39008F141FA7394 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amian;
+			productName = Amian;
+			productReference = A6CDB1942C12D78E006D3649 /* Amian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6CDB18C2C12D78E006D3649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A6CDB1932C12D78E006D3649 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = A6CDB18F2C12D78E006D3649 /* Build configuration list for PBXProject "Amian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6CDB18B2C12D78E006D3649;
+			productRefGroup = A6CDB1952C12D78E006D3649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6CDB1932C12D78E006D3649 /* Amian */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6CDB1922C12D78E006D3649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CDB1A42C12D78F006D3649 /* LaunchScreen.storyboard in Resources */,
+				A6CDB1A12C12D78F006D3649 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC6F4B4A39008F141FA7394 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8527FAA3D8429B25AF6988F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6CDB1902C12D78E006D3649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CDB1B12C12E7EE006D3649 /* AmianApp.swift in Sources */,
+				A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */,
+				A6CDB1B52C12ED26006D3649 /* RootCoordinator.swift in Sources */,
+				A6A4E11C2C134B4900A950A3 /* HomeView.swift in Sources */,
+				A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */,
+				A6CDB1982C12D78E006D3649 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6CDB1A22C12D78F006D3649 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6CDB1A32C12D78F006D3649 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6CDB1A62C12D78F006D3649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6CDB1A72C12D78F006D3649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6CDB1A92C12D78F006D3649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F86C6D1D18DACC02C7A1D0 /* Pods-Amian.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58P54NX7P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amian/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Amian;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idev.kz.Amian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A6CDB1AA2C12D78F006D3649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A151DE06FEFD62186B437B83 /* Pods-Amian.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58P54NX7P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amian/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Amian;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idev.kz.Amian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6CDB18F2C12D78E006D3649 /* Build configuration list for PBXProject "Amian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CDB1A62C12D78F006D3649 /* Debug */,
+				A6CDB1A72C12D78F006D3649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CDB1A82C12D78F006D3649 /* Build configuration list for PBXNativeTarget "Amian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CDB1A92C12D78F006D3649 /* Debug */,
+				A6CDB1AA2C12D78F006D3649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6CDB18C2C12D78E006D3649 /* Project object */;
+}

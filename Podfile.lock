@@ -1,0 +1,16 @@
+PODS:
+  - Stinsen (2.0.7)
+
+DEPENDENCIES:
+  - Stinsen
+
+SPEC REPOS:
+  trunk:
+    - Stinsen
+
+SPEC CHECKSUMS:
+  Stinsen: b1c34553e21ca4f1ba53bc29cb30e71e8cce811c
+
+PODFILE CHECKSUM: eef7a34a0e6781cc88a4633b812990f02d5cd373
+
+COCOAPODS: 1.13.0
