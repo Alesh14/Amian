@@ -31,8 +31,16 @@ struct HomeScreen: View {
     
     @EnvironmentObject private var router: HomeCoordinator.Router
     
+    let vm = CardViewModel(balance: 200)
+    
     var body: some View {
-        Text("Home")
+        VStack {
+            Spacer()
+                .frame(height: 20)
+            
+            CardView(viewModel: vm)
+            
+            Spacer()
+        }
     }
 }
-

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */; };
 		4A4448BB59E3DAC2E4E6862D /* Pods_Amian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED194EA49594410EE28F9207 /* Pods_Amian.framework */; };
+		A65A4A932C14CAEE00F11B8A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A922C14CAEE00F11B8A /* CardView.swift */; };
+		A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */; };
+		A65A4A972C14D24400F11B8A /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A962C14D24400F11B8A /* Currency.swift */; };
 		A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */; };
 		A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */; };
 		A6A4E11C2C134B4900A950A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E11B2C134B4900A950A3 /* HomeView.swift */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		A151DE06FEFD62186B437B83 /* Pods-Amian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.release.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.release.xcconfig"; sourceTree = "<group>"; };
+		A65A4A922C14CAEE00F11B8A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
+		A65A4A962C14D24400F11B8A /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E11B2C134B4900A950A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 		44FE69FD2C1389B700C41B6A /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				A65A4A912C14CADF00F11B8A /* Custom Views */,
+				A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */,
+				A65A4A962C14D24400F11B8A /* Currency.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -78,6 +87,14 @@
 				ED194EA49594410EE28F9207 /* Pods_Amian.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A65A4A912C14CADF00F11B8A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A65A4A922C14CAEE00F11B8A /* CardView.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 		A6A4E1182C134B2900A950A3 /* Scenes */ = {
@@ -271,11 +288,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6CDB1B12C12E7EE006D3649 /* AmianApp.swift in Sources */,
+				A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */,
 				A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */,
 				A6CDB1B52C12ED26006D3649 /* RootCoordinator.swift in Sources */,
 				A6A4E11C2C134B4900A950A3 /* HomeView.swift in Sources */,
 				44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */,
+				A65A4A972C14D24400F11B8A /* Currency.swift in Sources */,
 				A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */,
+				A65A4A932C14CAEE00F11B8A /* CardView.swift in Sources */,
 				A6CDB1982C12D78E006D3649 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +449,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,7 +484,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
