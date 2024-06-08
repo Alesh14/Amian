@@ -15,14 +15,13 @@ struct HomeScreen: View {
     
     var body: some View {
         ScrollView {
-            Spacer()
-                .frame(height: 20)
-        
             Button(action: {
                 router.route(to: \.balanceDetails)
             }, label: {
                 CardView(viewModel: cardViewModel)
             })
         }
+        .navigationTitle("Home")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
