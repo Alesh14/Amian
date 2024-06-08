@@ -20,7 +20,7 @@ final class HomeCoordinator: NavigationCoordinatable {
     init() {}
 }
 
-extension HomeCoordinator {
+private extension HomeCoordinator {
     
     @ViewBuilder
     private func makeStart() -> some View {

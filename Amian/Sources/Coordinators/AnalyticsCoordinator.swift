@@ -19,7 +19,7 @@ final class AnalyticsCoordinator: NavigationCoordinatable {
     init() {}
 }
 
-extension AnalyticsCoordinator {
+private extension AnalyticsCoordinator {
     
     @ViewBuilder
     private func makeStart() -> some View {

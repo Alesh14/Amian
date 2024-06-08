@@ -22,7 +22,7 @@ final class AppRootCoordinator: TabCoordinatable {
     init() {}
 }
 
-extension AppRootCoordinator {
+private extension AppRootCoordinator {
     
     @ViewBuilder 
     private func makeHomeTab(isActive: Bool) -> some View {
