@@ -23,13 +23,16 @@ extension HomeCoordinator {
     
     @ViewBuilder
     private func makeStart() -> some View {
-        HomeView()
+        HomeScreen()
     }
 }
 
-struct HomeView: View {
+struct HomeScreen: View {
+    
+    @EnvironmentObject private var router: HomeCoordinator.Router
     
     var body: some View {
         Text("Home")
     }
 }
+
