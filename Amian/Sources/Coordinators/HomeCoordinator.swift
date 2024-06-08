@@ -26,21 +26,3 @@ extension HomeCoordinator {
         HomeScreen()
     }
 }
-
-struct HomeScreen: View {
-    
-    @EnvironmentObject private var router: HomeCoordinator.Router
-    
-    private let cardViewModel = CardViewModel(balance: 200)
-    
-    var body: some View {
-        VStack {
-            Spacer()
-                .frame(height: 20)
-            
-            CardView(viewModel: vm)
-            
-            Spacer()
-        }
-    }
-}

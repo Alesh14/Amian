@@ -14,7 +14,7 @@
 		A65A4A972C14D24400F11B8A /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A962C14D24400F11B8A /* Currency.swift */; };
 		A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */; };
 		A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */; };
-		A6A4E11C2C134B4900A950A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E11B2C134B4900A950A3 /* HomeView.swift */; };
+		A6A4E11C2C134B4900A950A3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */; };
 		A6CDB1982C12D78E006D3649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CDB1972C12D78E006D3649 /* AppDelegate.swift */; };
 		A6CDB1A12C12D78F006D3649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CDB1A02C12D78F006D3649 /* Assets.xcassets */; };
 		A6CDB1A42C12D78F006D3649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CDB1A22C12D78F006D3649 /* LaunchScreen.storyboard */; };
@@ -30,7 +30,7 @@
 		A65A4A962C14D24400F11B8A /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
-		A6A4E11B2C134B4900A950A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		A6CDB1942C12D78E006D3649 /* Amian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CDB1972C12D78E006D3649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6CDB1A02C12D78F006D3649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		A6A4E1192C134B3100A950A3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A6A4E11B2C134B4900A950A3 /* HomeView.swift */,
+				A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 				A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */,
 				A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */,
 				A6CDB1B52C12ED26006D3649 /* RootCoordinator.swift in Sources */,
-				A6A4E11C2C134B4900A950A3 /* HomeView.swift in Sources */,
+				A6A4E11C2C134B4900A950A3 /* HomeScreen.swift in Sources */,
 				44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */,
 				A65A4A972C14D24400F11B8A /* Currency.swift in Sources */,
 				A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */,
