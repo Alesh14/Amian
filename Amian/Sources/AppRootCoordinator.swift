@@ -16,7 +16,7 @@ final class AppRootCoordinator: TabCoordinatable {
         \AppRootCoordinator.analytics
     ], activeTab: 0)
     
-    @Route(tabItem: makeHomeTab) var home = makeHome
+    @Route(tabItem: makeHomeTab, onTapped: onHomeTapped) var home = makeHome
     @Route(tabItem: makeAnalyticsTab) var analytics = makeAnalytics
     
     init() {}

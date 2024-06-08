@@ -1,16 +1,22 @@
 PODS:
-  - Stinsen (2.0.7)
+  - Stinsen (2.0.11)
 
 DEPENDENCIES:
-  - Stinsen
+  - Stinsen (from `https://github.com/rundfunk47/stinsen.git`, tag `2.0.13`)
 
-SPEC REPOS:
-  trunk:
-    - Stinsen
+EXTERNAL SOURCES:
+  Stinsen:
+    :git: https://github.com/rundfunk47/stinsen.git
+    :tag: 2.0.13
+
+CHECKOUT OPTIONS:
+  Stinsen:
+    :git: https://github.com/rundfunk47/stinsen.git
+    :tag: 2.0.13
 
 SPEC CHECKSUMS:
-  Stinsen: b1c34553e21ca4f1ba53bc29cb30e71e8cce811c
+  Stinsen: 68a5e49f1dd66084a9435910d3997ac7bb5bbc20
 
-PODFILE CHECKSUM: eef7a34a0e6781cc88a4633b812990f02d5cd373
+PODFILE CHECKSUM: 30d7f2e08b8ddedc0e9727c08b8cd7c1444707d4
 
 COCOAPODS: 1.13.0

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F164B71F79AA03F2ACCAB43 /* Pods_Amian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0649D5F491DC006D85A34F8 /* Pods_Amian.framework */; };
 		44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */; };
-		4A4448BB59E3DAC2E4E6862D /* Pods_Amian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED194EA49594410EE28F9207 /* Pods_Amian.framework */; };
 		A65A4A932C14CAEE00F11B8A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A922C14CAEE00F11B8A /* CardView.swift */; };
 		A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */; };
 		A65A4A972C14D24400F11B8A /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A962C14D24400F11B8A /* Currency.swift */; };
@@ -24,8 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25CC20643448CD73E24AF9B4 /* Pods-Amian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.debug.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.debug.xcconfig"; sourceTree = "<group>"; };
 		44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
-		A151DE06FEFD62186B437B83 /* Pods-Amian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.release.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.release.xcconfig"; sourceTree = "<group>"; };
 		A65A4A922C14CAEE00F11B8A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
 		A65A4A962C14D24400F11B8A /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
@@ -40,8 +40,8 @@
 		A6CDB1A52C12D78F006D3649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmianApp.swift; sourceTree = "<group>"; };
 		A6CDB1B42C12ED26006D3649 /* AppRootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootCoordinator.swift; sourceTree = "<group>"; };
-		B7F86C6D1D18DACC02C7A1D0 /* Pods-Amian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.debug.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.debug.xcconfig"; sourceTree = "<group>"; };
-		ED194EA49594410EE28F9207 /* Pods_Amian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7E509E9951E7D3B8990296 /* Pods-Amian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.release.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.release.xcconfig"; sourceTree = "<group>"; };
+		D0649D5F491DC006D85A34F8 /* Pods_Amian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4448BB59E3DAC2E4E6862D /* Pods_Amian.framework in Frameworks */,
+				3F164B71F79AA03F2ACCAB43 /* Pods_Amian.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,18 +77,10 @@
 		52ADE6CADE295EB2FB233FA5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B7F86C6D1D18DACC02C7A1D0 /* Pods-Amian.debug.xcconfig */,
-				A151DE06FEFD62186B437B83 /* Pods-Amian.release.xcconfig */,
+				25CC20643448CD73E24AF9B4 /* Pods-Amian.debug.xcconfig */,
+				CA7E509E9951E7D3B8990296 /* Pods-Amian.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		7EFB2EACCF38CD1AC9C4CEBD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ED194EA49594410EE28F9207 /* Pods_Amian.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A65A4A912C14CADF00F11B8A /* Custom Views */ = {
@@ -117,13 +109,21 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		A6A5AC358F56604DEE059202 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0649D5F491DC006D85A34F8 /* Pods_Amian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A6CDB18B2C12D78E006D3649 = {
 			isa = PBXGroup;
 			children = (
 				A6CDB1962C12D78E006D3649 /* Amian */,
 				A6CDB1952C12D78E006D3649 /* Products */,
 				52ADE6CADE295EB2FB233FA5 /* Pods */,
-				7EFB2EACCF38CD1AC9C4CEBD /* Frameworks */,
+				A6A5AC358F56604DEE059202 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,11 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6CDB1A82C12D78F006D3649 /* Build configuration list for PBXNativeTarget "Amian" */;
 			buildPhases = (
-				8527FAA3D8429B25AF6988F0 /* [CP] Check Pods Manifest.lock */,
+				214837635B09A07F519586EF /* [CP] Check Pods Manifest.lock */,
 				A6CDB1902C12D78E006D3649 /* Sources */,
 				A6CDB1912C12D78E006D3649 /* Frameworks */,
 				A6CDB1922C12D78E006D3649 /* Resources */,
-				1BC6F4B4A39008F141FA7394 /* [CP] Embed Pods Frameworks */,
+				349E510E7E694A77499EFC15 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,24 +244,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1BC6F4B4A39008F141FA7394 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8527FAA3D8429B25AF6988F0 /* [CP] Check Pods Manifest.lock */ = {
+		214837635B09A07F519586EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +264,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		349E510E7E694A77499EFC15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amian/Pods-Amian-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -439,7 +439,7 @@
 		};
 		A6CDB1A92C12D78F006D3649 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7F86C6D1D18DACC02C7A1D0 /* Pods-Amian.debug.xcconfig */;
+			baseConfigurationReference = 25CC20643448CD73E24AF9B4 /* Pods-Amian.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,7 +474,7 @@
 		};
 		A6CDB1AA2C12D78F006D3649 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A151DE06FEFD62186B437B83 /* Pods-Amian.release.xcconfig */;
+			baseConfigurationReference = CA7E509E9951E7D3B8990296 /* Pods-Amian.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
