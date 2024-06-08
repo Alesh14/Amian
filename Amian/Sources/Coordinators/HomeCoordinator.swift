@@ -31,7 +31,7 @@ struct HomeScreen: View {
     
     @EnvironmentObject private var router: HomeCoordinator.Router
     
-    let vm = CardViewModel(balance: 200)
+    private let cardViewModel = CardViewModel(balance: 200)
     
     var body: some View {
         VStack {
