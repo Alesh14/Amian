@@ -18,7 +18,7 @@ struct HomeScreen: View {
             Spacer()
                 .frame(height: 20)
             
-            CardView(viewModel: vm)
+            CardView(viewModel: cardViewModel)
             
             Spacer()
         }
