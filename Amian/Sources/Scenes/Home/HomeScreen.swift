@@ -17,8 +17,12 @@ struct HomeScreen: View {
         ScrollView {
             Spacer()
                 .frame(height: 20)
-            
-            CardView(viewModel: cardViewModel)
+        
+            Button(action: {
+                router.route(to: \.balanceDetails)
+            }, label: {
+                CardView(viewModel: cardViewModel)
+            })
         }
     }
 }

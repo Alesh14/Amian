@@ -15,6 +15,7 @@ final class HomeCoordinator: NavigationCoordinatable {
     let stack = NavigationStack(initial: \HomeCoordinator.start)
 
     @Root var start = makeStart
+    @Route(.push) var balanceDetails = makeBalanceDetails
     
     init() {}
 }
@@ -24,5 +25,10 @@ extension HomeCoordinator {
     @ViewBuilder
     private func makeStart() -> some View {
         HomeScreen()
+    }
+    
+    @ViewBuilder
+    private func makeBalanceDetails() -> some View {
+        BalanceDetailsScreen()
     }
 }

@@ -9,11 +9,11 @@ import SwiftUI
 
 import Stinsen
 
-final class RootCoordinator: TabCoordinatable {
+final class AppRootCoordinator: TabCoordinatable {
     
     var child: TabChild = .init(startingItems: [
-        \RootCoordinator.home,
-        \RootCoordinator.analytics
+        \AppRootCoordinator.home,
+        \AppRootCoordinator.analytics
     ], activeTab: 0)
     
     @Route(tabItem: makeHomeTab) var home = makeHome
@@ -22,7 +22,7 @@ final class RootCoordinator: TabCoordinatable {
     init() {}
 }
 
-extension RootCoordinator {
+extension AppRootCoordinator {
     
     @ViewBuilder 
     private func makeHomeTab(isActive: Bool) -> some View {

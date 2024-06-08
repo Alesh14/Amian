@@ -18,7 +18,7 @@ struct AmianApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationViewCoordinator(
-                RootCoordinator()
+                AppRootCoordinator()
             )
             .view()
         }

@@ -12,6 +12,7 @@
 		A65A4A932C14CAEE00F11B8A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A922C14CAEE00F11B8A /* CardView.swift */; };
 		A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */; };
 		A65A4A972C14D24400F11B8A /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A962C14D24400F11B8A /* Currency.swift */; };
+		A65A4A9A2C14DEFE00F11B8A /* BalanceDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A992C14DEFE00F11B8A /* BalanceDetailsScreen.swift */; };
 		A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */; };
 		A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */; };
 		A6A4E11C2C134B4900A950A3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */; };
@@ -19,7 +20,7 @@
 		A6CDB1A12C12D78F006D3649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CDB1A02C12D78F006D3649 /* Assets.xcassets */; };
 		A6CDB1A42C12D78F006D3649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CDB1A22C12D78F006D3649 /* LaunchScreen.storyboard */; };
 		A6CDB1B12C12E7EE006D3649 /* AmianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */; };
-		A6CDB1B52C12ED26006D3649 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CDB1B42C12ED26006D3649 /* RootCoordinator.swift */; };
+		A6CDB1B52C12ED26006D3649 /* AppRootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CDB1B42C12ED26006D3649 /* AppRootCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A65A4A922C14CAEE00F11B8A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
 		A65A4A962C14D24400F11B8A /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		A65A4A992C14DEFE00F11B8A /* BalanceDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceDetailsScreen.swift; sourceTree = "<group>"; };
 		A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -37,7 +39,7 @@
 		A6CDB1A32C12D78F006D3649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6CDB1A52C12D78F006D3649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmianApp.swift; sourceTree = "<group>"; };
-		A6CDB1B42C12ED26006D3649 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		A6CDB1B42C12ED26006D3649 /* AppRootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootCoordinator.swift; sourceTree = "<group>"; };
 		B7F86C6D1D18DACC02C7A1D0 /* Pods-Amian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.debug.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.debug.xcconfig"; sourceTree = "<group>"; };
 		ED194EA49594410EE28F9207 /* Pods_Amian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */,
+				A65A4A992C14DEFE00F11B8A /* BalanceDetailsScreen.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -159,7 +162,7 @@
 				A6CDB1B72C12EFA8006D3649 /* Coordinators */,
 				A6CDB1972C12D78E006D3649 /* AppDelegate.swift */,
 				A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */,
-				A6CDB1B42C12ED26006D3649 /* RootCoordinator.swift */,
+				A6CDB1B42C12ED26006D3649 /* AppRootCoordinator.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -288,9 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6CDB1B12C12E7EE006D3649 /* AmianApp.swift in Sources */,
+				A65A4A9A2C14DEFE00F11B8A /* BalanceDetailsScreen.swift in Sources */,
 				A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */,
 				A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */,
-				A6CDB1B52C12ED26006D3649 /* RootCoordinator.swift in Sources */,
+				A6CDB1B52C12ED26006D3649 /* AppRootCoordinator.swift in Sources */,
 				A6A4E11C2C134B4900A950A3 /* HomeScreen.swift in Sources */,
 				44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */,
 				A65A4A972C14D24400F11B8A /* Currency.swift in Sources */,
