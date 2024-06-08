@@ -14,13 +14,11 @@ struct HomeScreen: View {
     private let cardViewModel = CardViewModel(balance: 200)
     
     var body: some View {
-        VStack {
+        ScrollView {
             Spacer()
                 .frame(height: 20)
             
             CardView(viewModel: cardViewModel)
-            
-            Spacer()
         }
     }
 }
