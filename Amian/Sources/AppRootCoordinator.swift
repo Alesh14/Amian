@@ -30,8 +30,14 @@ extension AppRootCoordinator {
         Text("Home")
     }
     
-    private func makeHome() -> HomeCoordinator {
-        HomeCoordinator()
+    func makeHome() -> NavigationViewCoordinator<HomeCoordinator> {
+        NavigationViewCoordinator(HomeCoordinator())
+    }
+    
+    func onHomeTapped(_ isRepeat: Bool, coordinator: NavigationViewCoordinator<HomeCoordinator>) {
+        if isRepeat {
+            coordinator.child.popToRoot()
+        }
     }
     
     @ViewBuilder
