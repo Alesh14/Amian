@@ -11,14 +11,14 @@ struct HomeScreen: View {
     
     @EnvironmentObject private var router: HomeCoordinator.Router
     
-    private let cardViewModel = CardViewModel(balance: 200)
+    private let cardViewModel = BalanceCardViewModel(balance: 200)
     
     var body: some View {
         ScrollView {
             Button(action: {
                 router.route(to: \.balanceDetails)
             }, label: {
-                CardView(viewModel: cardViewModel)
+                BalanceCardView(viewModel: cardViewModel)
             })
         }
         .navigationTitle("Home")

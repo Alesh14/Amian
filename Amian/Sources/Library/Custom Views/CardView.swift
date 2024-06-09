@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final class CardViewModel: ObservableObject {
+final class BalanceCardViewModel: ObservableObject {
     
     @Published var balance: Double
     
@@ -19,9 +19,9 @@ final class CardViewModel: ObservableObject {
     }
 }
 
-struct CardView: View {
+struct BalanceCardView: View {
     
-    @ObservedObject var viewModel: CardViewModel
+    @ObservedObject var viewModel: BalanceCardViewModel
     
     private var balanceTitle: String {
         String(format: "%.2f", viewModel.balance) + " " + viewModel.currency.rawValue
@@ -43,5 +43,5 @@ struct CardView: View {
 }
 
 #Preview {
-    CardView(viewModel: CardViewModel(balance: 300))
+    BalanceCardView(viewModel: BalanceCardViewModel(balance: 300))
 }
