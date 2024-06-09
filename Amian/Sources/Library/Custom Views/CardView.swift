@@ -28,17 +28,15 @@ struct BalanceCardView: View {
     }
     
     var body: some View {
-        VStack {
-            Text(balanceTitle)
-                .font(.system(size: 30,
-                              weight: .semibold,
-                              design: .rounded)
-                )
-                .foregroundColor(Color.white)
-        }
-        .frame(width: ScreenSize.SCREEN_WIDTH - 10, height: 220)
-        .background(.blue)
-        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+        Text(balanceTitle)
+            .font(.system(size: 30,
+                          weight: .semibold,
+                          design: .rounded)
+            )
+            .foregroundColor(Color.white)
+            .frame(width: ScreenSize.SCREEN_WIDTH - 10, height: 220)
+            .background(.blue)
+            .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 }
 
