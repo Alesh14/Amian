@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-enum TransactionsPeriod: String {
-    case day, week, month, year
+enum Period: String {
+    case month
 }
 
 final class TransactionsViewModel: ObservableObject {
     
-    @Published var period: TransactionsPeriod
+    @Published var period: Period
     
     init() {
         self.period = .month
@@ -26,13 +26,12 @@ struct TransactionsView: View {
     
     var body: some View {
         VStack {
-            HStack {
-                Text("This \(viewModel.period.rawValue)")
-                    .font(.headline)
-                    .foregroundColor(.label)
-            }
             
+            Text("This \(viewModel.period.rawValue)")
+                .font(.headline)
+                .foregroundColor(.label)
             
+            CalendarView(calendar: Calendar(identifier: .gregorian))
         }
     }
 }
@@ -40,5 +39,3 @@ struct TransactionsView: View {
 #Preview(body: {
     TransactionsView(viewModel: TransactionsViewModel())
 })
-
-

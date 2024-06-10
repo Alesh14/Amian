@@ -15,7 +15,7 @@
 		A65A4A9A2C14DEFE00F11B8A /* BalanceDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A992C14DEFE00F11B8A /* BalanceDetailsScreen.swift */; };
 		A65A4A9C2C16CF3300F11B8A /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A9B2C16CF3300F11B8A /* TransactionsView.swift */; };
 		A65A4A9F2C16D2EE00F11B8A /* Color+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A9E2C16D2EE00F11B8A /* Color+UIColor.swift */; };
-		A65A4AA22C16D60300F11B8A /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4AA12C16D60300F11B8A /* CalendarService.swift */; };
+		A65F84022C16DC1D002D3543 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65F84012C16DC1D002D3543 /* CalendarView.swift */; };
 		A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */; };
 		A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */; };
 		A6A4E11C2C134B4900A950A3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */; };
@@ -35,7 +35,7 @@
 		A65A4A992C14DEFE00F11B8A /* BalanceDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceDetailsScreen.swift; sourceTree = "<group>"; };
 		A65A4A9B2C16CF3300F11B8A /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 		A65A4A9E2C16D2EE00F11B8A /* Color+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+UIColor.swift"; sourceTree = "<group>"; };
-		A65A4AA12C16D60300F11B8A /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		A65F84012C16DC1D002D3543 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -93,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				A65A4A922C14CAEE00F11B8A /* BalanceCardView.swift */,
+				A65F84012C16DC1D002D3543 /* CalendarView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -108,7 +109,6 @@
 		A65A4AA02C16D5EE00F11B8A /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				A65A4AA12C16D60300F11B8A /* CalendarService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 				A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */,
 				A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */,
 				A6CDB1B52C12ED26006D3649 /* AppRootCoordinator.swift in Sources */,
-				A65A4AA22C16D60300F11B8A /* CalendarService.swift in Sources */,
+				A65F84022C16DC1D002D3543 /* CalendarView.swift in Sources */,
 				A65A4A9C2C16CF3300F11B8A /* TransactionsView.swift in Sources */,
 				A6A4E11C2C134B4900A950A3 /* HomeScreen.swift in Sources */,
 				44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */,
