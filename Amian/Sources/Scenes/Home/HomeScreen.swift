@@ -11,17 +11,9 @@ struct HomeScreen: View {
     
     @EnvironmentObject private var router: HomeCoordinator.Router
     
-    private let cardViewModel = BalanceCardViewModel(balance: 200)
-    
     var body: some View {
-        ScrollView {
-            Button(action: {
-                router.route(to: \.balanceDetails)
-            }, label: {
-                BalanceCardView(viewModel: cardViewModel)
-            })
+        VStack {
+
         }
-        .navigationTitle("Home")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }

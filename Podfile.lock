@@ -1,8 +1,14 @@
 PODS:
+  - Factory (2.2.0)
   - Stinsen (2.0.11)
 
 DEPENDENCIES:
+  - Factory (= 2.2.0)
   - Stinsen (from `https://github.com/rundfunk47/stinsen.git`, tag `2.0.13`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Factory
 
 EXTERNAL SOURCES:
   Stinsen:
@@ -15,8 +21,9 @@ CHECKOUT OPTIONS:
     :tag: 2.0.13
 
 SPEC CHECKSUMS:
+  Factory: ec9527abfa59ddf2a1b024914b1e380f616f9e03
   Stinsen: 68a5e49f1dd66084a9435910d3997ac7bb5bbc20
 
-PODFILE CHECKSUM: 30d7f2e08b8ddedc0e9727c08b8cd7c1444707d4
+PODFILE CHECKSUM: d7a2365f1828698e66b6a467c6f909394176cbce
 
 COCOAPODS: 1.13.0

@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		3F164B71F79AA03F2ACCAB43 /* Pods_Amian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0649D5F491DC006D85A34F8 /* Pods_Amian.framework */; };
 		44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */; };
-		A65A4A932C14CAEE00F11B8A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A922C14CAEE00F11B8A /* CardView.swift */; };
+		A65A4A932C14CAEE00F11B8A /* BalanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A922C14CAEE00F11B8A /* BalanceCardView.swift */; };
 		A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */; };
 		A65A4A972C14D24400F11B8A /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A962C14D24400F11B8A /* Currency.swift */; };
 		A65A4A9A2C14DEFE00F11B8A /* BalanceDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A992C14DEFE00F11B8A /* BalanceDetailsScreen.swift */; };
+		A65A4A9C2C16CF3300F11B8A /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A9B2C16CF3300F11B8A /* TransactionsView.swift */; };
+		A65A4A9F2C16D2EE00F11B8A /* Color+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4A9E2C16D2EE00F11B8A /* Color+UIColor.swift */; };
+		A65A4AA22C16D60300F11B8A /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A4AA12C16D60300F11B8A /* CalendarService.swift */; };
 		A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */; };
 		A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */; };
 		A6A4E11C2C134B4900A950A3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */; };
@@ -26,10 +29,13 @@
 /* Begin PBXFileReference section */
 		25CC20643448CD73E24AF9B4 /* Pods-Amian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amian.debug.xcconfig"; path = "Target Support Files/Pods-Amian/Pods-Amian.debug.xcconfig"; sourceTree = "<group>"; };
 		44FE69FB2C1389A300C41B6A /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
-		A65A4A922C14CAEE00F11B8A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A65A4A922C14CAEE00F11B8A /* BalanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceCardView.swift; sourceTree = "<group>"; };
 		A65A4A942C14CD3E00F11B8A /* DeviceUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUtils.swift; sourceTree = "<group>"; };
 		A65A4A962C14D24400F11B8A /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		A65A4A992C14DEFE00F11B8A /* BalanceDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceDetailsScreen.swift; sourceTree = "<group>"; };
+		A65A4A9B2C16CF3300F11B8A /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		A65A4A9E2C16D2EE00F11B8A /* Color+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+UIColor.swift"; sourceTree = "<group>"; };
+		A65A4AA12C16D60300F11B8A /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
 		A6A4E1142C1341C400A950A3 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E1162C13429300A950A3 /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
 		A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -86,9 +92,25 @@
 		A65A4A912C14CADF00F11B8A /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				A65A4A922C14CAEE00F11B8A /* CardView.swift */,
+				A65A4A922C14CAEE00F11B8A /* BalanceCardView.swift */,
 			);
 			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		A65A4A9D2C16D2E100F11B8A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A65A4A9E2C16D2EE00F11B8A /* Color+UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A65A4AA02C16D5EE00F11B8A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A65A4AA12C16D60300F11B8A /* CalendarService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		A6A4E1182C134B2900A950A3 /* Scenes */ = {
@@ -105,6 +127,7 @@
 			children = (
 				A6A4E11B2C134B4900A950A3 /* HomeScreen.swift */,
 				A65A4A992C14DEFE00F11B8A /* BalanceDetailsScreen.swift */,
+				A65A4A9B2C16CF3300F11B8A /* TransactionsView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -157,8 +180,10 @@
 		A6CDB1B32C12EB9E006D3649 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A6A4E1182C134B2900A950A3 /* Scenes */,
 				44FE69FD2C1389B700C41B6A /* Library */,
+				A65A4AA02C16D5EE00F11B8A /* Services */,
+				A65A4A9D2C16D2E100F11B8A /* Extensions */,
+				A6A4E1182C134B2900A950A3 /* Scenes */,
 				A6CDB1B72C12EFA8006D3649 /* Coordinators */,
 				A6CDB1972C12D78E006D3649 /* AppDelegate.swift */,
 				A6CDB1B02C12E7EE006D3649 /* AmianApp.swift */,
@@ -295,11 +320,14 @@
 				A65A4A952C14CD3E00F11B8A /* DeviceUtils.swift in Sources */,
 				A6A4E1152C1341C400A950A3 /* HomeCoordinator.swift in Sources */,
 				A6CDB1B52C12ED26006D3649 /* AppRootCoordinator.swift in Sources */,
+				A65A4AA22C16D60300F11B8A /* CalendarService.swift in Sources */,
+				A65A4A9C2C16CF3300F11B8A /* TransactionsView.swift in Sources */,
 				A6A4E11C2C134B4900A950A3 /* HomeScreen.swift in Sources */,
 				44FE69FC2C1389A300C41B6A /* AnalyticsView.swift in Sources */,
 				A65A4A972C14D24400F11B8A /* Currency.swift in Sources */,
+				A65A4A9F2C16D2EE00F11B8A /* Color+UIColor.swift in Sources */,
 				A6A4E1172C13429300A950A3 /* AnalyticsCoordinator.swift in Sources */,
-				A65A4A932C14CAEE00F11B8A /* CardView.swift in Sources */,
+				A65A4A932C14CAEE00F11B8A /* BalanceCardView.swift in Sources */,
 				A6CDB1982C12D78E006D3649 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
